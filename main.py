@@ -101,7 +101,7 @@ while run:
 # End game
 if player1.alive:
     print('Player 1 winner')
-if player2.alive:
+elif player2.alive:
     print('Player 2 winner')
 else:
     print('You both losers')
